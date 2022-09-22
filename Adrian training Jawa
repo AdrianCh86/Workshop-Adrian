@@ -16,3 +16,46 @@ class Main {
         }
     }    
 }
+
+ class Main {
+    public static void main( String args[] ) {
+        
+        // declaram si initializam variabila varsta de tip int
+        int varsta = 33;
+        
+        // in functie de o valoare se executa o singura ramura de cod
+        if (varsta < 0) {
+            System.out.println("varsta invalida");
+        } else if (varsta < 14) {
+            System.out.println("minor fara buletin");
+        } else if (varsta < 18) {
+            System.out.println("minor cu buletin");
+        } else {
+            System.out.println("major");
+        }
+    }    
+}
+
+class Main {
+    public static void main( String args[] ) {
+        
+        /*
+        La workshop:
+        Calculator impozit masina
+        In functie de cm cubi ai masinii, dorim sa afisam impozitul
+        - cc < 0 => invalid
+        - cc < 1000 => 70.50 lei
+        - cc < 2400 => 159.90 lei
+        - pentru restul valorilor => 900 lei
+        Afisati impozitul.
+        
+        Tema:
+        Declarati variabile pentru marca si model
+        Expuneti proprozitia: "Pentru masina marca x model y, impozitul este de z"
+        */
+        
+        // ce variabile avem nevoie? ce tip de date?
+        
+        // ce structura avem nevoie ca sa calculam impozitul?
+        
+        // afisat impozitul
